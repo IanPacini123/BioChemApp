@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD421EB32AFC34CE00414656 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421E9A2AFC34CE00414656 /* QuestionViewModel.swift */; };
+		DD421EB42AFC34CE00414656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD421E9B2AFC34CE00414656 /* Assets.xcassets */; };
+		DD421EB52AFC34CE00414656 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421E9D2AFC34CE00414656 /* UserDefaultsHelper.swift */; };
+		DD421EB62AFC34CE00414656 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421E9E2AFC34CE00414656 /* StringExtension.swift */; };
+		DD421EB72AFC34CE00414656 /* ScreenDestinationEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421E9F2AFC34CE00414656 /* ScreenDestinationEnum.swift */; };
+		DD421EB82AFC34CE00414656 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD421EA12AFC34CE00414656 /* Preview Assets.xcassets */; };
+		DD421EB92AFC34CE00414656 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421EA32AFC34CE00414656 /* QuestionModel.swift */; };
+		DD421EBA2AFC34CE00414656 /* ExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421EA62AFC34CE00414656 /* ExplanationView.swift */; };
+		DD421EBB2AFC34CE00414656 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421EA72AFC34CE00414656 /* AnswerView.swift */; };
+		DD421EBC2AFC34CE00414656 /* RouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421EA82AFC34CE00414656 /* RouletteView.swift */; };
+		DD421EBD2AFC34CE00414656 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421EAA2AFC34CE00414656 /* QuestionView.swift */; };
+		DD421EBE2AFC34CE00414656 /* TrueFalseQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421EAB2AFC34CE00414656 /* TrueFalseQuestionView.swift */; };
+		DD421EBF2AFC34CE00414656 /* MultipleChoiceQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421EAC2AFC34CE00414656 /* MultipleChoiceQuestionView.swift */; };
+		DD421EC02AFC34CE00414656 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421EAD2AFC34CE00414656 /* MainView.swift */; };
+		DD421EC12AFC34CE00414656 /* GlicosandoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421EAE2AFC34CE00414656 /* GlicosandoApp.swift */; };
+		DD421EC22AFC34CE00414656 /* CoffeCake.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD421EB02AFC34CE00414656 /* CoffeCake.ttf */; };
+		DD421EC32AFC34CE00414656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD421EB12AFC34CE00414656 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD421E632AFC342E00414656 /* Glicosando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glicosando.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD421E9A2AFC34CE00414656 /* QuestionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		DD421E9B2AFC34CE00414656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD421E9D2AFC34CE00414656 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		DD421E9E2AFC34CE00414656 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		DD421E9F2AFC34CE00414656 /* ScreenDestinationEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenDestinationEnum.swift; sourceTree = "<group>"; };
+		DD421EA12AFC34CE00414656 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD421EA32AFC34CE00414656 /* QuestionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		DD421EA62AFC34CE00414656 /* ExplanationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplanationView.swift; sourceTree = "<group>"; };
+		DD421EA72AFC34CE00414656 /* AnswerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
+		DD421EA82AFC34CE00414656 /* RouletteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouletteView.swift; sourceTree = "<group>"; };
+		DD421EAA2AFC34CE00414656 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		DD421EAB2AFC34CE00414656 /* TrueFalseQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueFalseQuestionView.swift; sourceTree = "<group>"; };
+		DD421EAC2AFC34CE00414656 /* MultipleChoiceQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceQuestionView.swift; sourceTree = "<group>"; };
+		DD421EAD2AFC34CE00414656 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DD421EAE2AFC34CE00414656 /* GlicosandoApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlicosandoApp.swift; sourceTree = "<group>"; };
+		DD421EB02AFC34CE00414656 /* CoffeCake.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoffeCake.ttf; sourceTree = "<group>"; };
+		DD421EB12AFC34CE00414656 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD421EC52AFC353B00414656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD421E602AFC342E00414656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD421E5A2AFC342E00414656 = {
+			isa = PBXGroup;
+			children = (
+				DD421E982AFC34CE00414656 /* Glicosando */,
+				DD421E642AFC342E00414656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD421E642AFC342E00414656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD421E632AFC342E00414656 /* Glicosando.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD421E982AFC34CE00414656 /* Glicosando */ = {
+			isa = PBXGroup;
+			children = (
+				DD421EC52AFC353B00414656 /* Info.plist */,
+				DD421E992AFC34CE00414656 /* ViewModel */,
+				DD421E9B2AFC34CE00414656 /* Assets.xcassets */,
+				DD421E9C2AFC34CE00414656 /* Utils */,
+				DD421EA02AFC34CE00414656 /* Preview Content */,
+				DD421EA22AFC34CE00414656 /* Model */,
+				DD421EA42AFC34CE00414656 /* View */,
+				DD421EAE2AFC34CE00414656 /* GlicosandoApp.swift */,
+				DD421EAF2AFC34CE00414656 /* Fonts */,
+				DD421EB12AFC34CE00414656 /* ContentView.swift */,
+			);
+			path = Glicosando;
+			sourceTree = "<group>";
+		};
+		DD421E992AFC34CE00414656 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD421E9A2AFC34CE00414656 /* QuestionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD421E9C2AFC34CE00414656 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DD421E9D2AFC34CE00414656 /* UserDefaultsHelper.swift */,
+				DD421E9E2AFC34CE00414656 /* StringExtension.swift */,
+				DD421E9F2AFC34CE00414656 /* ScreenDestinationEnum.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DD421EA02AFC34CE00414656 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD421EA12AFC34CE00414656 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD421EA22AFC34CE00414656 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD421EA32AFC34CE00414656 /* QuestionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD421EA42AFC34CE00414656 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD421EA52AFC34CE00414656 /* Answer */,
+				DD421EA82AFC34CE00414656 /* RouletteView.swift */,
+				DD421EA92AFC34CE00414656 /* Question */,
+				DD421EAD2AFC34CE00414656 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD421EA52AFC34CE00414656 /* Answer */ = {
+			isa = PBXGroup;
+			children = (
+				DD421EA62AFC34CE00414656 /* ExplanationView.swift */,
+				DD421EA72AFC34CE00414656 /* AnswerView.swift */,
+			);
+			path = Answer;
+			sourceTree = "<group>";
+		};
+		DD421EA92AFC34CE00414656 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				DD421EAA2AFC34CE00414656 /* QuestionView.swift */,
+				DD421EAB2AFC34CE00414656 /* TrueFalseQuestionView.swift */,
+				DD421EAC2AFC34CE00414656 /* MultipleChoiceQuestionView.swift */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		DD421EAF2AFC34CE00414656 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DD421EB02AFC34CE00414656 /* CoffeCake.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD421E622AFC342E00414656 /* Glicosando */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD421E712AFC342F00414656 /* Build configuration list for PBXNativeTarget "Glicosando" */;
+			buildPhases = (
+				DD421E5F2AFC342E00414656 /* Sources */,
+				DD421E602AFC342E00414656 /* Frameworks */,
+				DD421E612AFC342E00414656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glicosando;
+			productName = Glicosando;
+			productReference = DD421E632AFC342E00414656 /* Glicosando.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD421E5B2AFC342E00414656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DD421E622AFC342E00414656 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DD421E5E2AFC342E00414656 /* Build configuration list for PBXProject "Glicosando" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD421E5A2AFC342E00414656;
+			productRefGroup = DD421E642AFC342E00414656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD421E622AFC342E00414656 /* Glicosando */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD421E612AFC342E00414656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD421EC22AFC34CE00414656 /* CoffeCake.ttf in Resources */,
+				DD421EB82AFC34CE00414656 /* Preview Assets.xcassets in Resources */,
+				DD421EB42AFC34CE00414656 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD421E5F2AFC342E00414656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD421EBE2AFC34CE00414656 /* TrueFalseQuestionView.swift in Sources */,
+				DD421EC02AFC34CE00414656 /* MainView.swift in Sources */,
+				DD421EC32AFC34CE00414656 /* ContentView.swift in Sources */,
+				DD421EBF2AFC34CE00414656 /* MultipleChoiceQuestionView.swift in Sources */,
+				DD421EC12AFC34CE00414656 /* GlicosandoApp.swift in Sources */,
+				DD421EB52AFC34CE00414656 /* UserDefaultsHelper.swift in Sources */,
+				DD421EB72AFC34CE00414656 /* ScreenDestinationEnum.swift in Sources */,
+				DD421EBB2AFC34CE00414656 /* AnswerView.swift in Sources */,
+				DD421EBA2AFC34CE00414656 /* ExplanationView.swift in Sources */,
+				DD421EBC2AFC34CE00414656 /* RouletteView.swift in Sources */,
+				DD421EB32AFC34CE00414656 /* QuestionViewModel.swift in Sources */,
+				DD421EB62AFC34CE00414656 /* StringExtension.swift in Sources */,
+				DD421EBD2AFC34CE00414656 /* QuestionView.swift in Sources */,
+				DD421EB92AFC34CE00414656 /* QuestionModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD421E6F2AFC342F00414656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD421E702AFC342F00414656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD421E722AFC342F00414656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glicosando/Preview Content\"";
+				DEVELOPMENT_TEAM = ZGZHU6QZW7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Glicosando/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleAcademy.Glicosando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD421E732AFC342F00414656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Glicosando/Preview Content\"";
+				DEVELOPMENT_TEAM = ZGZHU6QZW7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Glicosando/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleAcademy.Glicosando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD421E5E2AFC342E00414656 /* Build configuration list for PBXProject "Glicosando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD421E6F2AFC342F00414656 /* Debug */,
+				DD421E702AFC342F00414656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD421E712AFC342F00414656 /* Build configuration list for PBXNativeTarget "Glicosando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD421E722AFC342F00414656 /* Debug */,
+				DD421E732AFC342F00414656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD421E5B2AFC342E00414656 /* Project object */;
+}
