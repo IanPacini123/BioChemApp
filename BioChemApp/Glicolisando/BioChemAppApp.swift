@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct BioChemAppApp: App {
+    @State var navigationPath: NavigationPath = NavigationPath()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(navigationPath: $navigationPath)
+                .preferredColorScheme(.light)
         }
     }
 }

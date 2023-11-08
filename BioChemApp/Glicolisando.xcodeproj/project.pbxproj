@@ -7,20 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD2C28832AFA979300BC5BD5 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C28822AFA979300BC5BD5 /* QuestionViewModel.swift */; };
+		DD2C28852AFA99F400BC5BD5 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C28842AFA99F400BC5BD5 /* AnswerView.swift */; };
+		DD2C28882AFA9D3F00BC5BD5 /* CoffeCake.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD2C28872AFA9D1A00BC5BD5 /* CoffeCake.ttf */; };
+		DD2C288B2AFAB7F800BC5BD5 /* ScreenDestinationEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C288A2AFAB7F800BC5BD5 /* ScreenDestinationEnum.swift */; };
+		DD2C288E2AFAC78800BC5BD5 /* ExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C288D2AFAC78800BC5BD5 /* ExplanationView.swift */; };
+		DD2C28902AFACD9200BC5BD5 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C288F2AFACD9200BC5BD5 /* StringExtension.swift */; };
 		DD34FD542AF9493500343207 /* BioChemAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34FD532AF9493500343207 /* BioChemAppApp.swift */; };
 		DD34FD562AF9493500343207 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34FD552AF9493500343207 /* ContentView.swift */; };
 		DD34FD582AF9493600343207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD34FD572AF9493600343207 /* Assets.xcassets */; };
 		DD34FD5B2AF9493600343207 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD34FD5A2AF9493600343207 /* Preview Assets.xcassets */; };
-		DD34FD652AF9496700343207 /* TestRoulette.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34FD642AF9496700343207 /* TestRoulette.swift */; };
+		DD34FD652AF9496700343207 /* RouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD34FD642AF9496700343207 /* RouletteView.swift */; };
+		DD42F1D42AF9694E00BF4817 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42F1D32AF9694E00BF4817 /* MainView.swift */; };
+		DD42F1D72AF96D5D00BF4817 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42F1D62AF96D5D00BF4817 /* UserDefaultsHelper.swift */; };
+		DD42F1D92AF96FEF00BF4817 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42F1D82AF96FEF00BF4817 /* QuestionView.swift */; };
+		DD42F1DB2AF96FFC00BF4817 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42F1DA2AF96FFC00BF4817 /* QuestionModel.swift */; };
+		DD42F1DE2AF980DC00BF4817 /* TrueFalseQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42F1DD2AF980DC00BF4817 /* TrueFalseQuestionView.swift */; };
+		DD42F1E02AF9824600BF4817 /* MultipleChoiceQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD42F1DF2AF9824600BF4817 /* MultipleChoiceQuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD34FD502AF9493500343207 /* BioChemApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioChemApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2C28822AFA979300BC5BD5 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		DD2C28842AFA99F400BC5BD5 /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
+		DD2C28872AFA9D1A00BC5BD5 /* CoffeCake.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoffeCake.ttf; sourceTree = "<group>"; };
+		DD2C28892AFA9D7600BC5BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DD2C288A2AFAB7F800BC5BD5 /* ScreenDestinationEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenDestinationEnum.swift; sourceTree = "<group>"; };
+		DD2C288D2AFAC78800BC5BD5 /* ExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationView.swift; sourceTree = "<group>"; };
+		DD2C288F2AFACD9200BC5BD5 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		DD34FD502AF9493500343207 /* Glicolisando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glicolisando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD34FD532AF9493500343207 /* BioChemAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioChemAppApp.swift; sourceTree = "<group>"; };
 		DD34FD552AF9493500343207 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD34FD572AF9493600343207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD34FD5A2AF9493600343207 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DD34FD642AF9496700343207 /* TestRoulette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRoulette.swift; sourceTree = "<group>"; };
+		DD34FD642AF9496700343207 /* RouletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteView.swift; sourceTree = "<group>"; };
+		DD42F1D32AF9694E00BF4817 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DD42F1D62AF96D5D00BF4817 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		DD42F1D82AF96FEF00BF4817 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		DD42F1DA2AF96FFC00BF4817 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		DD42F1DD2AF980DC00BF4817 /* TrueFalseQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueFalseQuestionView.swift; sourceTree = "<group>"; };
+		DD42F1DF2AF9824600BF4817 /* MultipleChoiceQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceQuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,10 +59,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD2C28862AFA9CF400BC5BD5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DD2C28872AFA9D1A00BC5BD5 /* CoffeCake.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DD2C288C2AFAC77400BC5BD5 /* Answer */ = {
+			isa = PBXGroup;
+			children = (
+				DD2C28842AFA99F400BC5BD5 /* AnswerView.swift */,
+				DD2C288D2AFAC78800BC5BD5 /* ExplanationView.swift */,
+			);
+			path = Answer;
+			sourceTree = "<group>";
+		};
 		DD34FD472AF9493500343207 = {
 			isa = PBXGroup;
 			children = (
-				DD34FD522AF9493500343207 /* BioChemApp */,
+				DD34FD522AF9493500343207 /* Glicolisando */,
 				DD34FD512AF9493500343207 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,14 +87,17 @@
 		DD34FD512AF9493500343207 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD34FD502AF9493500343207 /* BioChemApp.app */,
+				DD34FD502AF9493500343207 /* Glicolisando.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD34FD522AF9493500343207 /* BioChemApp */ = {
+		DD34FD522AF9493500343207 /* Glicolisando */ = {
 			isa = PBXGroup;
 			children = (
+				DD2C28892AFA9D7600BC5BD5 /* Info.plist */,
+				DD2C28862AFA9CF400BC5BD5 /* Fonts */,
+				DD42F1D52AF96D5100BF4817 /* Utils */,
 				DD34FD622AF9494800343207 /* View */,
 				DD34FD612AF9494300343207 /* Model */,
 				DD34FD632AF9494E00343207 /* ViewModel */,
@@ -61,7 +106,7 @@
 				DD34FD572AF9493600343207 /* Assets.xcassets */,
 				DD34FD592AF9493600343207 /* Preview Content */,
 			);
-			path = BioChemApp;
+			path = Glicolisando;
 			sourceTree = "<group>";
 		};
 		DD34FD592AF9493600343207 /* Preview Content */ = {
@@ -75,6 +120,7 @@
 		DD34FD612AF9494300343207 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DD42F1DA2AF96FFC00BF4817 /* QuestionModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,7 +128,10 @@
 		DD34FD622AF9494800343207 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DD34FD642AF9496700343207 /* TestRoulette.swift */,
+				DD2C288C2AFAC77400BC5BD5 /* Answer */,
+				DD42F1DC2AF980CC00BF4817 /* Question */,
+				DD34FD642AF9496700343207 /* RouletteView.swift */,
+				DD42F1D32AF9694E00BF4817 /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,16 +139,37 @@
 		DD34FD632AF9494E00343207 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DD2C28822AFA979300BC5BD5 /* QuestionViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DD42F1D52AF96D5100BF4817 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DD42F1D62AF96D5D00BF4817 /* UserDefaultsHelper.swift */,
+				DD2C288A2AFAB7F800BC5BD5 /* ScreenDestinationEnum.swift */,
+				DD2C288F2AFACD9200BC5BD5 /* StringExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DD42F1DC2AF980CC00BF4817 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				DD42F1D82AF96FEF00BF4817 /* QuestionView.swift */,
+				DD42F1DD2AF980DC00BF4817 /* TrueFalseQuestionView.swift */,
+				DD42F1DF2AF9824600BF4817 /* MultipleChoiceQuestionView.swift */,
+			);
+			path = Question;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD34FD4F2AF9493500343207 /* BioChemApp */ = {
+		DD34FD4F2AF9493500343207 /* Glicolisando */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD34FD5E2AF9493600343207 /* Build configuration list for PBXNativeTarget "BioChemApp" */;
+			buildConfigurationList = DD34FD5E2AF9493600343207 /* Build configuration list for PBXNativeTarget "Glicolisando" */;
 			buildPhases = (
 				DD34FD4C2AF9493500343207 /* Sources */,
 				DD34FD4D2AF9493500343207 /* Frameworks */,
@@ -109,9 +179,9 @@
 			);
 			dependencies = (
 			);
-			name = BioChemApp;
+			name = Glicolisando;
 			productName = BioChemApp;
-			productReference = DD34FD502AF9493500343207 /* BioChemApp.app */;
+			productReference = DD34FD502AF9493500343207 /* Glicolisando.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD34FD4B2AF9493500343207 /* Build configuration list for PBXProject "BioChemApp" */;
+			buildConfigurationList = DD34FD4B2AF9493500343207 /* Build configuration list for PBXProject "Glicolisando" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +212,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD34FD4F2AF9493500343207 /* BioChemApp */,
+				DD34FD4F2AF9493500343207 /* Glicolisando */,
 			);
 		};
 /* End PBXProject section */
@@ -152,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2C28882AFA9D3F00BC5BD5 /* CoffeCake.ttf in Resources */,
 				DD34FD5B2AF9493600343207 /* Preview Assets.xcassets in Resources */,
 				DD34FD582AF9493600343207 /* Assets.xcassets in Resources */,
 			);
@@ -164,8 +235,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD42F1DB2AF96FFC00BF4817 /* QuestionModel.swift in Sources */,
+				DD2C288B2AFAB7F800BC5BD5 /* ScreenDestinationEnum.swift in Sources */,
+				DD42F1D72AF96D5D00BF4817 /* UserDefaultsHelper.swift in Sources */,
+				DD2C28832AFA979300BC5BD5 /* QuestionViewModel.swift in Sources */,
 				DD34FD562AF9493500343207 /* ContentView.swift in Sources */,
-				DD34FD652AF9496700343207 /* TestRoulette.swift in Sources */,
+				DD42F1D42AF9694E00BF4817 /* MainView.swift in Sources */,
+				DD42F1DE2AF980DC00BF4817 /* TrueFalseQuestionView.swift in Sources */,
+				DD2C288E2AFAC78800BC5BD5 /* ExplanationView.swift in Sources */,
+				DD2C28902AFACD9200BC5BD5 /* StringExtension.swift in Sources */,
+				DD42F1E02AF9824600BF4817 /* MultipleChoiceQuestionView.swift in Sources */,
+				DD2C28852AFA99F400BC5BD5 /* AnswerView.swift in Sources */,
+				DD34FD652AF9496700343207 /* RouletteView.swift in Sources */,
+				DD42F1D92AF96FEF00BF4817 /* QuestionView.swift in Sources */,
 				DD34FD542AF9493500343207 /* BioChemAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +385,7 @@
 				DEVELOPMENT_TEAM = ZGZHU6QZW7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BioChemApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,7 +397,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AppleAcademy.BioChemApp;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleAcademy.BioChemApp.123456;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,6 +416,7 @@
 				DEVELOPMENT_TEAM = ZGZHU6QZW7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BioChemApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,7 +428,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AppleAcademy.BioChemApp;
+				PRODUCT_BUNDLE_IDENTIFIER = AppleAcademy.BioChemApp.123456;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -355,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD34FD4B2AF9493500343207 /* Build configuration list for PBXProject "BioChemApp" */ = {
+		DD34FD4B2AF9493500343207 /* Build configuration list for PBXProject "Glicolisando" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD34FD5C2AF9493600343207 /* Debug */,
@@ -364,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD34FD5E2AF9493600343207 /* Build configuration list for PBXNativeTarget "BioChemApp" */ = {
+		DD34FD5E2AF9493600343207 /* Build configuration list for PBXNativeTarget "Glicolisando" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD34FD5F2AF9493600343207 /* Debug */,
